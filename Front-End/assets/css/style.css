@@ -1,0 +1,233 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900');
+
+.body,
+.v-application{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.login-card.pa-7 {
+  padding: 12px !important;
+}
+@media (min-width: 1264px) and (max-width: 1903px) {
+  .flex.lg5-custom {
+    width: 20%;
+    max-width: 20%;
+    flex-basis: 20%;
+  }
+}
+
+.v-list-item--active {
+  background-color: #e6e6f7 !important;
+  opacity: 100%;
+}
+.v-list-item--active::before
+{
+  display: block;
+  border-left: 2px solid #555BFE;
+  border-radius: 0px !important;
+}
+.v-list-item--active .v-list-item__title , .v-list-item__icon {
+  color: #000 !important;
+}
+.v-navigation-drawer__border
+{
+  display: none;
+}
+.v-alert--material .v-alert__icon {
+  top: 0px !important;
+}
+.v-alert {
+  padding: 14px !important;
+}
+.v-alert .v-alert__wrapper .v-alert__content {
+  font-size: 15px !important;
+}
+.reporttable
+{
+  border: 1px solid #EBEBEB;
+}
+.reporttable>.v-data-table__wrapper>table>thead>tr>th
+{
+  color: #000 !important;
+  font-weight: 500;
+}
+.v-data-table
+{
+  border: 1px solid #EBEBEB;
+}
+.reporttable>.v-data-table__wrapper>table>tbody>tr:hover
+{
+  background: inherit !important;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0 3px 15px -2px rgb(0 0 0 / 12%);
+  transform: translateY(-1px);
+}
+.v-data-table__wrapper>table>thead>tr>th
+{
+  color: #000 !important;
+  font-weight: 500;
+}
+.reporttable>.v-data-table__wrapper>table>tbody>tr {
+  transition: box-shadow .2s,transform .2s;
+}
+.v-tabs-slider-wrapper
+{
+  display: none !important;
+}
+.v-tab
+{
+  min-width: 66px !important;
+  height:30px !important;
+  z-index: 999 !important;
+}
+.v-tab:not(.v-tab--active)
+{
+  color:#000 !important;
+  font-size: 13px !important;
+}
+.v-tab--active
+{
+  color:#fff !important;
+  background: #555BFE;
+}
+.v-tab--active::after
+{
+  content:"";
+  width: 0px;
+  height: 0px;
+  border-top: solid 7px #555BFE;
+  border-left: solid 7px transparent;
+  border-right: solid 7px transparent;
+  top: 30px;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+}
+.v-list-item__content>:not(:last-child)
+{
+  margin-bottom: 5px !important;
+}
+
+.v-picker {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.v-main {
+  background-color: #ebeef6;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.v-application p {
+  margin-bottom: 10px !important;
+}
+.v-chip__content {
+  font-size: 12px !important;
+  text-align: center;
+  margin: 0 auto;
+}
+.v-chip {
+  width: 57px;
+}
+.v-footer
+{
+  position: absolute !important;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.arot-logo img {
+  width: 180px !important;
+  width: 100px;
+}
+.no-gutters>.col, .no-gutters>[class*=col-]
+{
+  padding-right: 5px !important;
+  padding-bottom: 0px !important;
+}
+.mb-50
+{
+  margin-bottom: 50px !important;
+}
+.mb-60
+{
+  margin-bottom: 60px !important;
+}
+.mb-70
+{
+  margin-bottom: 70px !important;
+}
+/* .v-icon.v-icon
+{
+  font-size: 18px !important;
+} */
+.v-list-group .v-icon.v-icon
+{
+  font-size: 16px !important;
+}
+.v-menu__content .v-list-item
+{
+  min-height: 40px !important;
+  padding: 0 10px !important;
+
+}
+.v-menu__content .v-list-item__title
+{
+  font-size: 15px !important;
+  line-height: 1.4rem !important;
+}
+
+.v-menu__content  .v-icon
+{
+  font-size: 18px !important;
+  padding-right: 5px;
+}
+.v-dialog .v-card .v-card__title
+{
+  font-size: 16px !important;
+}
+.v-card .v-card__title
+{
+  font-size: 16px !important;
+}
+.v-dialog>.v-card>.v-card__subtitle, .v-dialog>.v-card>.v-card__text
+{
+  padding: 18px !important;
+}
+.datatable {
+  padding: 5px 0px;
+}
+.excel {
+  padding: 7px;
+  background: #dbf3db;
+}
+.printer {
+  padding: 7px;
+  background: #e9eaff;
+}
+.pdf {
+  padding: 7px;
+  background: #fff0d9;
+}
+.table-export .v-icon {
+  cursor: pointer;
+}
+@media print {
+  #printable
+  {
+    display: block;
+  }
+}
+#printable
+{
+  display: none;
+}
